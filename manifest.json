@@ -1,22 +1,31 @@
 {
     "short_name": "AG",
     "name": "Arcade Gallery",
-    "description": "A simple Web Application ",
+    "description": "A simple Web Application",
     "icons": [
-        {
-            "src": "/logo/logo12.png",
-            "type": "image/png",
-            "sizes": "92x92"
-        },
-        {
-            "src": "/logo/logo13.png",
-            "type": "image/png",
-            "sizes": "192x192"
-        }
+      {
+        "src": "./logo/logo12.png",
+        "type": "image/png",
+        "sizes": "92x92"
+      },
+      {
+        "src": "./logo/logo13.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
     ],
-    "start_url": "index.html",
+    "start_url": "/index.html",
     "background_color": "#3367D6",
     "display": "standalone",
+    "scope": "/",
     "theme_color": "#3367D6",
-    "scope": "/"
-}
+    "shortcuts": [
+      {
+        "name": "Arcade Gallery",
+        "short_name": "AG",
+        "description": "A simple Web Application",
+        "url": "/index.html",
+        "icons": [{ "src": "/logo/logo12.png", "sizes": "92x92" }]
+      }
+    ]
+  }
